@@ -1,4 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './components/sass/Layout.scss';
 import Home from './components/Pages/Home/Home';
 import Spline from '@splinetool/react-spline';
