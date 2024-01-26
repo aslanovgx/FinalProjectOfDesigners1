@@ -1,0 +1,53 @@
+@import "./../sass/style.scss";
+
+#nav {
+    padding: 20px 0 0 0;
+
+    .container {
+        max-width: 100%;
+        padding: 0 51px;
+    }
+
+    .left_side {
+        .logo {
+            img {
+                @extend %img-cover;
+                width: 139.97px;
+            }
+        }
+    }
+
+    .right_side {
+        @extend %d-flex;
+        gap: 61px;
+
+        li {
+            color: var(--Foundation-White-white-700, #E4E4E4);
+            font-feature-settings: 'salt' on;
+            font-feature-settings: 'ss01' on;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            letter-spacing: -0.54px;
+
+            select {
+                background: transparent;
+                border: none;
+
+                option {
+                    background: rgba(0, 0, 0, 0.624);
+                }
+            }
+
+            button {
+                background-color: transparent;
+                padding: 14px 24px;
+                border-radius: 30px;
+                border: 1px solid var(--Foundation-White-white-700, #E4E4E4);
+            }
+        }
+
+
+    }
+}
